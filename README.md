@@ -1,2 +1,38 @@
 # Mata
-Retrieve IP Geolocation information
+>Retrieve IP Geolocation information
+
+## Table of contents
+* [General info](#general-info)
+* [Version](#version)
+* [Technologies](#technologies)
+* [Screenshot](#screenshot)
+* [Instructions](#instructions)
+
+## General Info
+You can easily get detail IP geolocation information
+
+## Version
+Latest version 1.0.0
+
+## Instructions
+* NodeJS required.
+* Copy snippet and paste into your terminal.
+```
+git clone https://github.com/ridz97/Mata.git
+```
+```
+cd Mata
+```
+```
+npm start
+```
+## Technologies
+* HTML
+* CSS
+* NodeJs
+* Electron
+* JavaScript
+* Bootstrap
+
+## Screenshot
+![Example screenshot](/img/screenshot.png)
