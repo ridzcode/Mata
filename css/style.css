@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+}
+
+* {
+    color: rgb(0, 177, 29);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.result {
+    color: red;
+}
+
+.btn {
+    color: rgb(0, 177, 29);
+}

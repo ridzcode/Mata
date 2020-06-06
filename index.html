@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Mata</title>
+    <!-- https://electronjs.org/docs/tutorial/security#csp-meta-tag -->
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+    <!-- css link -->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="container">
+        <p class="h1 text-center">IP Geolocation Scanner</p>
+
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="example: 8.8.8.8" aria-describedby="button-addon2">
+            <div class="input-group-append">
+            <button class="btn btn-outline-secondary" type="button" id="button-addon2">Scan</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <table class="table table-borderless">
+            <thead>
+              <tr>
+                <th scope="col">List</th>
+                <th scope="col">Result</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Ip:</td>
+                <td id="ip" class="result"></td>
+              </tr>
+              <tr>
+                <td>Success:</td>
+                <td id="success" class="result"></td>
+              </tr>
+              <tr>
+                <td>Message:</td>
+                <td id="message" class="result"></td>
+              </tr>
+              <tr>
+                <td>Type:</td>
+                <td id="type" class="result"></td>
+              </tr>
+              <tr>
+                <td>Continent:</td>
+                <td id="continent" class="result"></td>
+              </tr>
+              <tr>
+                <td>Continent Code:</td>
+                <td id="continent_code" class="result"></td>
+              </tr>
+              <tr>
+                <td>Country:</td>
+                <td id="country" class="result"></td>
+              </tr>
+              <tr>
+                <td>Country Code:</td>
+                <td id="country_code" class="result"></td>
+              </tr>
+              <tr>
+                <td>Country Capital:</td>
+                <td id="country_capital" class="result"></td>
+              </tr>
+              <tr>
+                <td>Country Phone:</td>
+                <td id="country_phone" class="result"></td>
+              </tr>
+              <tr>
+                <td>Country Neighbours:</td>
+                <td id="country_neighbours" class="result"></td>
+              </tr>
+              <tr>
+                <td>Region:</td>
+                <td id="region" class="result"></td>
+              </tr>
+              <tr>
+                <td>City:</td>
+                <td id="city" class="result"></td>
+              </tr>
+              <tr>
+                <td>Latitude:</td>
+                <td id="latitude" class="result"></td>
+              </tr>
+              <tr>
+                <td>Longitude:</td>
+                <td id="longitude" class="result"></td>
+              </tr>
+              <tr>
+                <td>As:</td>
+                <td id="as" class="result"></td>
+              </tr>
+              <tr>
+                <td>Organization:</td>
+                <td id="org" class="result"></td>
+              </tr>
+              <tr>
+                <td>Isp:</td>
+                <td id="isp" class="result"></td>
+              </tr>
+              <tr>
+                <td>Timezone:</td>
+                <td id="timezone" class="result"></td>
+              </tr>
+              <tr>
+                <td>Timezone Name:</td>
+                <td id="timezone_name" class="result"></td>
+              </tr>
+              <tr>
+                <td>Timezone DST OffSet:</td>
+                <td id="timezone_dstOffset" class="result"></td>
+              </tr>
+              <tr>
+                <td>Timezone GMT OffSet:</td>
+                <td id="timezone_gmtOffset" class="result"></td>
+              </tr>
+              <tr>
+                <td>Timezone Gmt:</td>
+                <td id="timezone_gmt" class="result"></td>
+              </tr>
+              <tr>
+                <td>Currency:</td>
+                <td id="currency" class="result"></td>
+              </tr>
+              <tr>
+                <td>Currency Code:</td>
+                <td id="currency_code" class="result"></td>
+              </tr>
+              <tr>
+                <td>Currency Symbol:</td>
+                <td id="currency_symbol" class="result"></td>
+              </tr>
+              <tr>
+                <td>Currency Rates:</td>
+                <td id="currency_rates" class="result"></td>
+              </tr>
+              <tr>
+                <td>Currency Plural:</td>
+                <td id="currency_plural" class="result"></td>
+              </tr>
+              <tr>
+                <td>Completed Requests:</td>
+                <td id="completed_requests" class="result"></td>
+              </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="fixed-bottom text-right">
+      <a href="https://paypal.me/ridz97" rel="noopener noreferrer">
+        <button type="button" class="btn text-warning" style="background-color: black;border: 1px solid white;">Donate</button>
+      </a>
+    </div>
+    
+    <script src="js/index.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+  </body>
+</html>

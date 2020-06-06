@@ -1,0 +1,34 @@
+{
+  "name": "mata",
+  "version": "1.0.0",
+  "description": "This is ip geolocation application",
+  "main": "script.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "keywords": [
+    "ip",
+    "location",
+    "scanner",
+    "geolocation"
+  ],
+  "author": "ridz97",
+  "license": "MIT",
+  "build": {
+    "appId": "com.ridz97.Mata",
+    "win": {
+      "target": "nsis",
+      "icon": "img/icon.png"
+    },
+    "asar": true
+  },
+  "devDependencies": {
+    "electron": "^9.0.2",
+    "electron-builder": "^22.7.0"
+  },
+  "dependencies": {
+    "yarn": "^1.22.4"
+  }
+}
