@@ -16,13 +16,13 @@
 You can easily get detail IP geolocation information
 
 ## Version
-Latest version 1.0.0
+Latest version 1.2.0
 
 ## Instructions
 * NodeJS required.
 * Copy snippet and paste into your terminal.
 ```
-git clone https://github.com/ridz97/Mata.git
+git clone https://github.com/ridzcode/Mata.git
 ```
 ```
 cd Mata
