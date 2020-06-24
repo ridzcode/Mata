@@ -39,4 +39,4 @@ npm start
 * Bootstrap
 
 ## Screenshot
-![Example screenshot](/img/screenshot.png)
+![Example screenshot](/img/ss.png)
