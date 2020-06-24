@@ -3,8 +3,9 @@ body {
 }
 
 * {
-    color: rgb(0, 177, 29);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(38, 0, 255);
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-family: 'Press Start 2P', cursive;
 }
 
 .result {
@@ -12,5 +13,5 @@ body {
 }
 
 .btn {
-    color: rgb(0, 177, 29);
+    color: rgb(38, 0, 255);
 }
