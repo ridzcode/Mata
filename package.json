@@ -1,6 +1,6 @@
 {
   "name": "mata",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "This is ip geolocation application",
   "main": "script.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "scanner",
     "geolocation"
   ],
-  "author": "ridz97",
+  "author": "ridzcode",
   "license": "MIT",
   "build": {
     "appId": "com.ridz97.Mata",
