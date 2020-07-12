@@ -1,4 +1,5 @@
-const { app, BrowserWindow } = require('electron')
+const { app, BrowserWindow, Menu } = require('electron')
+const shell = require('electron').shell
 
 function createWindow () {
   // Create the browser window.
@@ -17,6 +18,28 @@ function createWindow () {
 
   // Open the DevTools.
   // win.webContents.openDevTools()
+
+  var menu = Menu.buildFromTemplate([
+    {
+        label: 'Menu',
+        submenu: [
+            {
+              label:'Donate',
+              click() { 
+                shell.openExternal('https://paypal.me/ridz97/');
+              },
+              accelerator: 'CmdOrCtrl+Shift+D'
+            },
+            {
+              label:'Exit', 
+              click() {
+                  app.quit();
+              } 
+            }
+        ]
+    }
+])
+Menu.setApplicationMenu(menu); 
 }
 
 // This method will be called when Electron has finished
