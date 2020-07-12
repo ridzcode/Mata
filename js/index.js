@@ -37,7 +37,6 @@ btn.addEventListener('click', function() {
             document.getElementById("currency_symbol").textContent = json.currency_symbol;
             document.getElementById("currency_rates").textContent = `${json.currency_symbol} ${json.currency_rates} = $1`;
             document.getElementById("currency_plural").textContent = json.currency_plural;
-            document.getElementById("completed_requests").textContent = json.completed_requests;
         }
     };
     XMLHttp.open("GET", 'http://free.ipwhois.io/json/' + ip, true);
