@@ -16,7 +16,7 @@
 You can easily get detail IP geolocation information
 
 ## Version
-Latest version 1.2.0
+Latest version 1.4.0
 
 ## Instructions
 * NodeJS required.
